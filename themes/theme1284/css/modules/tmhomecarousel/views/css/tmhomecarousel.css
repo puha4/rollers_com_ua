@@ -1,0 +1,139 @@
+.tab-content > ul {
+  display: none !important; }
+
+.tab-content .bx-wrapper {
+  margin: 0 auto !important;
+  position: static !important; }
+
+.tab-content .bx-viewport {
+  overflow: visible !important;
+  position: static !important; }
+  @media (max-width: 1199px) {
+    .tab-content .bx-viewport {
+      overflow: hidden !important;
+      position: relative !important; } }
+
+#homepage-carousel li {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  clear: none; }
+
+.tab-content .bx-controls a {
+  background: #fff; }
+
+.tab-content .bx-controls a:hover,
+.tab-content .bx-controls a.active {
+  color: #fff; }
+
+.tab-content .bx-controls a:before {
+  font-family: 'FontAwesome'; }
+
+.tab-content .bx-pager {
+  padding: 0;
+  overflow: hidden; }
+
+.tab-content .bx-pager .bx-pager-item {
+  float: left;
+  text-align: center;
+  margin-right: 3px; }
+
+.tab-content .bx-pager .bx-pager-item a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: 0;
+  margin: 0; }
+
+.tab-content .bx-controls-auto .bx-controls-auto-item {
+  float: left;
+  margin-right: 0;
+  text-align: center; }
+
+.tab-content .bx-controls-auto .bx-controls-auto-item a {
+  display: block;
+  width: 17px;
+  height: 17px;
+  text-indent: 0;
+  background: none;
+  color: #000;
+  margin: 0; }
+
+.tab-content .bx-controls-auto .bx-controls-auto-item a.bx-start:before {
+  content: '\f04b'; }
+
+.tab-content .bx-controls-auto .bx-controls-auto-item a.bx-stop:before {
+  content: '\f04c'; }
+
+.tab-content .bx-controls-direction {
+  float: left;
+  overflow: hidden; }
+
+.tab-content .bx-controls-direction a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  z-index: 10;
+  background: none; }
+
+.tab-content .bx-wrapper .bx-prev {
+  left: 0px;
+  font-family: "Material Icons"; }
+  .tab-content .bx-wrapper .bx-prev:after {
+    content: "\e314"; }
+  .tab-content .bx-wrapper .bx-prev.active {
+    left: 0; }
+.tab-content .bx-wrapper .bx-next {
+  right: 0px;
+  font-family: "Material Icons"; }
+  .tab-content .bx-wrapper .bx-next:after {
+    content: "\e315"; }
+  .tab-content .bx-wrapper .bx-next.active {
+    right: 0; }
+.tab-content .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  outline: 0;
+  width: 43px;
+  height: 43px;
+  text-indent: -9999px;
+  z-index: 5001;
+  margin: auto;
+  line-height: 20px;
+  background: #000000;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .tab-content .bx-wrapper .bx-controls-direction a:after {
+    display: block;
+    width: 43px;
+    height: 43px;
+    color: #FFF;
+    text-indent: 0;
+    text-align: center;
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 12px 0 0 0;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .tab-content .bx-wrapper .bx-controls-direction a:hover {
+    background: #f0f0f0;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .tab-content .bx-wrapper .bx-controls-direction a:hover:after {
+      color: #000;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+
+/*# sourceMappingURL=tmhomecarousel.css.map */

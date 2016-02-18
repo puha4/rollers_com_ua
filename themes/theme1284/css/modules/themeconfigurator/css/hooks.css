@@ -1,0 +1,172 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  max-width: 391px;
+  padding-left: 10px; }
+  @media (max-width: 767px) {
+    #htmlcontent_top {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      padding-top: 0; } }
+  @media (max-width: 767px) {
+    #htmlcontent_top ul {
+      margin: 0 -5px; } }
+  #htmlcontent_top ul li {
+    width: 100%;
+    margin-bottom: 10px; }
+    @media (max-width: 767px) {
+      #htmlcontent_top ul li {
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%; } }
+    #htmlcontent_top ul li:last-child {
+      margin-bottom: 0; }
+    #htmlcontent_top ul li img {
+      max-width: 100%;
+      height: auto; }
+
+#htmlcontent_home {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+  #htmlcontent_home > .container {
+    width: 1770px;
+    padding: 198px 0px 318px; }
+    @media (min-width: 1200px) and (max-width: 1800px) {
+      #htmlcontent_home > .container {
+        width: 1170px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #htmlcontent_home > .container {
+        width: 970px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #htmlcontent_home > .container {
+        width: 750px; } }
+    @media (max-width: 767px) {
+      #htmlcontent_home > .container {
+        width: 100%; } }
+    @media (max-width: 991px) {
+      #htmlcontent_home > .container {
+        padding: 20px 0px; } }
+  #htmlcontent_home h4 {
+    font-size: 17px;
+    color: #50db69;
+    font-weight: 300; }
+  #htmlcontent_home h3 {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 32px; }
+  #htmlcontent_home h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 16px; }
+  #htmlcontent_home button {
+    margin-top: 41px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 16px;
+    background: #50db69;
+    border: none;
+    outline: none;
+    padding: 21px 19px;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    #htmlcontent_home button:hover {
+      background: #151215;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+  #htmlcontent_home .item-html {
+    padding-left: 25px; }
+  @media (max-width: 767px) {
+    #htmlcontent_home li {
+      width: 100%; } }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */
+#htmlcontent_footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+  #htmlcontent_footer > .container {
+    width: 1770px;
+    padding: 251px 0px 249px; }
+    @media (min-width: 1200px) and (max-width: 1800px) {
+      #htmlcontent_footer > .container {
+        width: 1170px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #htmlcontent_footer > .container {
+        width: 970px;
+        padding: 35px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #htmlcontent_footer > .container {
+        width: 750px;
+        padding: 35px; } }
+    @media (max-width: 767px) {
+      #htmlcontent_footer > .container {
+        width: 100%;
+        padding: 15px; } }
+  #htmlcontent_footer.parallax_section {
+    z-index: 1; }
+  #htmlcontent_footer h4 {
+    font-size: 17px !important;
+    color: #50db69 !important;
+    font-weight: 300 !important;
+    text-transform: none !important; }
+    #htmlcontent_footer h4:after {
+      display: none !important; }
+  #htmlcontent_footer h3 {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 32px; }
+    @media (max-width: 767px) {
+      #htmlcontent_footer h3 {
+        font-size: 55px; } }
+  #htmlcontent_footer h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 16px; }
+  #htmlcontent_footer button {
+    margin-top: 41px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 16px;
+    background: #50db69;
+    border: none;
+    outline: none;
+    padding: 14px 19px;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    #htmlcontent_footer button:hover {
+      background: #151215;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+  #htmlcontent_footer .item-html {
+    float: right;
+    padding-right: 160px; }
+    @media (max-width: 767px) {
+      #htmlcontent_footer .item-html {
+        float: left;
+        padding-right: 0;
+        width: 100%; } }
+    @media (max-width: 1199px) {
+      #htmlcontent_footer .item-html {
+        padding-right: 25px; } }
+  #htmlcontent_footer li {
+    width: 100%; }
+
+/*# sourceMappingURL=hooks.css.map */

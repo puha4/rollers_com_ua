@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGC,gDAAiB;EAChB,QAAQ,EAAC,QAAQ;EACjB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,iBAA4B;ECqVpC,kBAAwC,EDpVjB,CAAC;ECoVxB,qBAAwC,EC9Sb,CAAuB;ED8SlD,aAAwC,EDpVjB,CAAC;EACxB,mEAAmB;IG6IpB,QAAQ,EAAC,QAAQ;IACjB,UAAU,EA1HyB,KAAI;IHlBrC,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,IAAI;IACX,YAAY,EAAE,IAAI;IAClB,QAAQ,EAAE,MAAM;IAChB,QAAQ,EAAE,QAAQ;EAEnB,+DAAe;IACd,WAAW,EAAE,IAAI;IACjB,QAAQ,EAAE,MAAM;IAChB,OAAO,EAAE,CAAC;EAEX,wDAAQ;IACP,QAAQ,EAAC,QAAQ;IACjB,GAAG,EAAC,IAAI;IACR,KAAK,EAAC,IAAI;IACV,8DAAM;MACL,MAAM,EAAC,OAAO;;;AAShB,2OAGsC;EACrC,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,OAAO;AAEhB,yDAAqC;EACpC,OAAO,EAAE,IAAI;AAEd,2DAAuC;EACtC,OAAO,EAAE,IAAI",
+"sources": ["../../../sass/modules/favoriteproducts/favoriteproducts.scss","../../../../../../../../../Program Files (x86)/Prepros/gems/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/_support.scss","../../../../../../../../../Program Files (x86)/Prepros/gems/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/css3/_border-radius.scss","../../../sass/_theme_variables.scss"],
+"names": [],
+"file": "favoriteproducts.css"
+}

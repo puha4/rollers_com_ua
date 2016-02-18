@@ -1,0 +1,7 @@
+"Atribure Group ID";"Is Color Group";"Group Type";Position;Name;"Public Name"
+3;1;color;1;Color;Color
+4;0;select;2;Gender;Gender
+5;0;radio;3;"Brake style";"Brake style"
+6;0;select;4;"Wheel size";"Wheel size"
+7;0;radio;5;"Frame material";"Frame material"
+8;0;select;6;Size;Size

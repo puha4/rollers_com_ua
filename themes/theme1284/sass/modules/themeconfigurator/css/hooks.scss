@@ -1,0 +1,191 @@
+@import "../../../_theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {
+	max-width: 391px;
+	padding-left: 10px;
+	@media (max-width: $screen-xs-max) { // max 767px
+		width: 100%;
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 0;
+	}
+	ul {
+		@media (max-width: $screen-xs-max) { // max 767px
+			margin: 0 -5px;
+		}
+		li {
+			width: 100%;
+			margin-bottom: 10px;
+			@media (max-width: $screen-xs-max) { // max 767px
+				float: left;
+				padding-left: 5px;
+				padding-right: 5px;
+				width: 50%;
+			}
+			&:last-child{
+				margin-bottom: 0;
+			}
+			img {
+				max-width: 100%;
+				height: auto;	
+			}
+		}
+	}
+}
+#htmlcontent_home{
+    font-family: $font-custom;
+    >.container{
+        width: 1770px; 
+        padding: 198px 0px 318px;
+        @media (min-width: 1200px)and(max-width:1800px){
+            width: 1170px;
+        }
+        @media (min-width: 992px)and(max-width:1199px){
+            width: 970px;
+        }
+        @media (min-width: 768px)and(max-width:991px){
+            width: 750px;
+        }
+        @media (max-width: 767px){
+            width: 100%;
+        }
+        @media (max-width:991px){
+            padding: 20px 0px;
+        }
+    }
+    font-weight: 400;
+    h4{
+        font-size: 17px;
+        color:#50db69;
+        font-weight: 300;
+    }
+    h3{
+        font-size: 72px;
+        text-transform: uppercase;
+        color:#FFF;
+        font-family: $font-custom_2;
+        margin-top: 32px;
+    }
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        color:#fff;
+        font-family: $font-custom_2;
+        margin-top: 16px;
+    }
+    button{
+        margin-top: 41px;
+        text-transform: uppercase;
+        color:#FFF;
+        font-size: 16px;
+        background: #50db69;
+        border:none;
+        outline: none;
+        padding: 21px 19px;
+        @include transition(.3s);
+        &:hover{
+            background: #151215;
+            @include transition(.3s);
+        }
+    }
+    .item-html{
+        padding-left: 25px;
+    }
+    li{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+} 
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+    font-family: $font-custom;
+    >.container{
+        width: 1770px; 
+        padding: 251px 0px 249px;
+        @media (min-width: 1200px)and(max-width:1800px){
+            width: 1170px;
+        }
+        @media (min-width: 992px)and(max-width:1199px){
+            width: 970px;
+            padding: 35px;
+        }
+        @media (min-width: 768px)and(max-width:991px){
+            width: 750px;
+            padding: 35px;
+        }
+        @media (max-width: 767px){
+            width: 100%;
+            padding: 15px;
+        }
+    }
+    &.parallax_section{
+        z-index: 1;
+    }
+    font-weight: 400;
+    h4{
+        font-size: 17px !important;
+        color:#50db69 !important;
+        font-weight: 300 !important;
+        text-transform: none !important;
+        &:after{
+            display: none !important;                
+        }
+    }
+    h3{
+        font-size: 72px;
+        text-transform: uppercase;
+        color:#FFF;
+        font-family: $font-custom_2;
+        margin-top: 32px;
+        @media (max-width:767px){
+            font-size: 55px;
+        }
+    }
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        color:#fff;
+        font-family: $font-custom_2;
+        margin-top: 16px;
+    }
+    button{
+        margin-top: 41px;
+        text-transform: uppercase;
+        color:#FFF;
+        font-size: 16px;
+        background: #50db69;
+        border:none;
+        outline: none;
+        padding: 14px 19px;
+        @include transition(.3s);
+        &:hover{
+            background: #151215;
+            @include transition(.3s);
+        }
+    }
+    .item-html{
+        float: right;
+        padding-right: 160px;
+        @media (max-width:767px){
+            float: left;
+            padding-right: 0;
+            width: 100%;
+        }
+        @media (max-width:1199px){
+            padding-right: 25px;
+        }
+    }
+    li{
+            width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+
+[{shop_url}] 
+
+Привіт, {firstname} {lastname}, 
+
+Від вашого імені було здійснено нове
+замовлення. 
+
+Please go on {order_link} [{order_link}] to finalize
+the payment. 		 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

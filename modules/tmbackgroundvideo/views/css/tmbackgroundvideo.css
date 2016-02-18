@@ -1,0 +1,11 @@
+.bg-video-container{
+    position: absolute!important; 
+    left: 0;
+    right: 0;
+    z-index: 0!important; 
+    top: 0;
+    overflow: hidden;
+}
+.bg-video-content{
+    padding:250px 0;
+}

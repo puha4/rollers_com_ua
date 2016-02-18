@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIE,iBAAE;EACD,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;EAChB,qBAAI;IACH,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACV,UAAU,EAAE,IAAI;IAChB,SAAS,EAAE,MAAM",
+"sources": ["../../../sass/modules/blockbanner/blockbanner.scss"],
+"names": [],
+"file": "blockbanner.css"
+}

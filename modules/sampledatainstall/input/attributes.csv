@@ -1,0 +1,35 @@
+"Atribure ID";"Attribute Group ID";Color;Position;Name
+30;5;;0;Caliper
+31;5;;1;"Mechanical disc"
+32;5;;2;"Linear Pull/V"
+33;5;;3;"Hydraulic disc"
+5;3;#AAB2BD;0;Grey
+6;3;#CFC4A6;1;Taupe
+7;3;#f5f5dc;2;Beige
+8;3;#ffffff;3;White
+9;3;#faebd7;4;"Off White"
+10;3;#E84C3D;5;Red
+11;3;#434A54;6;Black
+12;3;#C19A6B;7;Camel
+13;3;#F39C11;8;Orange
+14;3;#5D9CEC;9;Blue
+15;3;#A0D468;10;Green
+16;3;#F1C40F;11;Yellow
+17;3;#964B00;12;Brown
+24;3;#FCCACD;13;Pink
+38;7;;0;Aluminum
+39;7;;1;Carbon
+40;7;;2;Steel
+25;4;;0;Unisex
+26;4;;1;Women's
+27;4;;2;"Boys "
+28;4;;3;"Girls "
+29;4;;4;Kids’
+41;8;;0;S
+42;8;;1;M
+43;8;;2;"L "
+44;8;;3;XL
+34;6;;0;700c
+35;6;;1;24''
+36;6;;2;20''
+37;6;;3;650c

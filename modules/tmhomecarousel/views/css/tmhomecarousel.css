@@ -1,0 +1,78 @@
+.tab-content > ul {
+	display:none !important;	
+}
+.tab-content .bx-wrapper {
+	margin:0 !important;	
+}
+#homepage-carousel {
+	overflow:hidden;
+}	
+#homepage-carousel li {
+	padding-left:0 !important;
+	padding-right:0 !important;
+	clear:none;
+}
+.tab-content .bx-controls a {
+	background:#fff;
+}
+.tab-content .bx-controls a:hover,
+.tab-content .bx-controls a.active {
+	color:#fff;
+}
+.tab-content .bx-controls a:before {
+	font-family:'FontAwesome';
+}
+.tab-content .bx-pager {
+	padding:0;
+	overflow:hidden;	
+}
+.tab-content .bx-pager .bx-pager-item {
+	float:left;
+	text-align:center;
+	margin-right:3px;
+}
+.tab-content .bx-pager .bx-pager-item a {
+	display:block;	
+	width:20px;
+	height:20px;
+	text-indent:0;
+	margin:0;
+}
+.tab-content .bx-controls-auto .bx-controls-auto-item {
+	float:left;
+	margin-right:0;
+	text-align:center;
+}
+.tab-content .bx-controls-auto .bx-controls-auto-item a {
+	display:block;
+	width:17px;
+	height:17px;
+	text-indent:0;
+	background:none;
+	color:#000;
+	margin:0;
+}
+.tab-content .bx-controls-auto .bx-controls-auto-item a.bx-start:before {
+	content:'\f04b';	
+}
+.tab-content .bx-controls-auto .bx-controls-auto-item a.bx-stop:before {
+	content:'\f04c';	
+}
+.tab-content .bx-controls-direction {
+	float:left;
+	overflow:hidden;	
+}
+.tab-content .bx-controls-direction a {
+	display:block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	z-index:10;
+	background:none;
+}
+.tab-content .bx-controls-direction a.bx-prev:before {
+	content:'\f104';
+}
+.tab-content .bx-controls-direction a.bx-next:before {
+	content:'\f105';
+}

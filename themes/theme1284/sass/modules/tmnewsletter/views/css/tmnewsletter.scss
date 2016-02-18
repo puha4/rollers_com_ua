@@ -1,0 +1,138 @@
+@import 'compass';
+@import "../../../../_theme_variables";
+
+.newsletter-overlay {
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	z-index:9999;
+	overflow:hidden;
+    font-family: $font-custom;
+	#newsletter_popup {
+		background:#fff;
+		margin:0 auto;
+        max-width:615px;
+		min-width:290px;
+        width:615px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+        @include box-shadow(1px 2px 51px rgba(0,0,0,.08)); 
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+        @media (max-width:767px){
+            min-width: 90%;
+            width: 95%;
+        }
+		.tmnewsletter-inner {
+			position:relative;
+            padding: 73px 63px 47px;
+            padding-right: 37px;
+			.icon.tmnewsletter-close {
+				width:23px;
+				height:23px;
+				border-radius:50px;
+				position:absolute;
+                right: 18px;
+                top: 18px;
+				cursor:pointer;
+				text-align:center;
+				line-height:30px;
+                color:#191919;
+				&:before {
+                    font-size: 23px;
+                    content:'\e5cd'; 
+					font-family:$flat-icon; 
+				}
+                &:hover{
+                    color:#50db69;
+                }
+			}
+            @media (max-width:767px){
+                padding: 10px;
+            }
+			.tmnewsletter-header {
+				padding:10px 15px;
+                padding-bottom: 5px;
+				h4 {
+					margin:0;
+					text-transform:uppercase;	
+                    font-weight: 700;
+                    font-size: 26px;
+                    color:#191919;
+				}	
+			}
+			.tmnewsletter-content {
+				padding:10px 15px;	
+                font-size: 16px;
+                font-weight: 300;
+                color:#888888;
+                line-height: 28px;
+                .form-control{
+                    height: 55px;
+                    margin-bottom: 5px;
+                }
+                label{
+                    display: none;
+                }
+                .btn{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 55px;
+                    font-size: 16px;
+                    color:#FFF;
+                    text-transform: uppercase;
+                    background: #50db69;
+                    font-weight: 300;
+                    @include transition(.3s);
+                    width: 125px;
+                    &:hover{
+                        background: #000;
+                        color:#FFF;
+                        @include transition(.3s);
+                    }
+                    @media (max-width:767px){
+                        position: relative;
+                        right: auto;
+                    }
+                }
+                .form-group{
+                    margin-top: 40px;
+                    position: relative;
+                    max-width: 448px;
+                }
+                
+			}
+			.tmnewsletter-footer {
+				text-align:right;
+				padding:10px 15px 0;
+				overflow:hidden;
+				.btn {
+					margin-left:5px;
+					margin-bottom:10px;
+				}
+				.checkbox {
+					float:left;	
+				}
+                .tmnewsletter-close{
+                    display: none;
+                }
+			}
+			.tmnewsletter-submit {
+				background:#000;
+				border-color:#000;
+				color:#fff;
+				&:hover {
+					background:#fff;
+					color:#000;	
+				}
+			}
+		}
+	}
+}	

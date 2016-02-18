@@ -1,0 +1,19 @@
+"Slide ID";Active;Position;Description;Title;Legend;Url;Image
+1;1;0;"<div class=""right_top"">
+<p>Passionate about cycling?</p>
+<h3>BUY &amp; ENJOY</h3>
+<h4>YOUR CYCLING EXPERIENCE!</h4>
+<p><button>Shop now!</button></p>
+</div>";"Sample 1";sample-1;index.php?id_category=21&controller=category;213e598b3772363e0148f2b1c1b76a0273ed2b12_slide.jpg
+2;1;0;"<div class=""right_bottom"">
+<p>Bikes and gear for all ages</p>
+<h3>A GREAT</h3>
+<h4>SELECTION OF BIKES AND BIKE PARTS</h4>
+<p><button>Shop now!</button></p>
+</div>";"Sample 2";sample-2;index.php?id_category=22&controller=category;945cf90a55f6afcc1d4b9de777f027fdc054b0b5_slide.jpg
+3;1;0;"<div class=""left_top"">
+<p>Buy the best branded bikes</p>
+<h3>FLY HIGH</h3>
+<h4>ON YOUR BIKE</h4>
+<p><button>Shop now!</button></p>
+</div>";"Sample 3";sample-3;index.php?id_category=23&controller=category;5cd59b30a10772f372f02e81a678da0d7fbc26d2_slide.jpg
